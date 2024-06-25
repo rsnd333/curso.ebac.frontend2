@@ -1,0 +1,128 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body > header {
+    background-color: #ffedfa;
+    padding: 16px 0;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header li { 
+    display: inline;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    margin-left: 16px;
+}
+
+header li a {
+    color: #371210;
+    text-decoration: none;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article img {
+    height: 200px;
+}
+
+.articles article img {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.articles article{
+    width: 33%;
+
+}
+
+h1 {
+    color: #e69185;
+}
+
+h2{
+    color: #82201e;
+}
+
+#Lifestyle-and-selfcare h2{
+    color: #520255;
+}
+
+.creation-date{
+    color: #6b2b43;
+}
+
+time{
+    color: #6b2b43;
+}
+
+section {
+    padding: 30px 0;
+}
+
+section h2 {
+    margin-bottom: 16px;
+}
+
+.articles article h3 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.articles article a {
+    background-color: #6f3832;
+    color: #ffff;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bolder;
+    margin-top: 8px;
+    margin-bottom: 10px;
+}
+
+.articles article a:hover {
+    text-decoration: underline;
+
+}
+
+.articles article p,
+.articles article a {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.articles article p {
+    text-transform: capitalize;
+    margin-right: 13px;
+}
+
+.articles article h3 {
+    font-size: 22px;
+}
+
+section h2 {
+    font-size: 35px;
+}
+
+#Lifestyle-and-selfcare {
+    background-color: #ffedea;
+}
+
+#Curiosities {
+    background-color: #ffedea;
+}
